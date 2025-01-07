@@ -6,8 +6,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.rdiv.carreracorredores.api.ApiClient;
-import com.rdiv.carreracorredores.api.CorredoresApi;
 import com.rdiv.carreracorredores.models.Carrera;
 
 import retrofit2.Call;

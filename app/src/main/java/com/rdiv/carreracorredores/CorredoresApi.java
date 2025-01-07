@@ -14,7 +14,7 @@ public interface CorredoresApi {
     Call<Carrera> getCarrera();
 
     @POST("api/corredores")
-    Call<Carrera> crearCarrera(Carrera nuevaCarrera);
+    Call<Carrera> crearCarrera(@Body Carrera nuevaCarrera);
 
     @PUT("api/corredores/simular")
     Call<Carrera> simularCarrera();
